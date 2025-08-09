@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: auto;
+}
+
+.todo-list>li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.sub-item {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.sub-item-link {
+    text-decoration: none;
+    /* No underline by default */
+    color: blue;
+    /* Default link color */
+}
+
+/* Visited link color */
+.sub-item-link:visited {
+    color: purple;
+}
+
+/* Hover link color */
+.sub-item-link:hover {
+    color: orange;
+}
+
+/* Active (clicked) link color */
+.sub-item-link:active {
+    color: red;
+}
+
+/* Focus outline */
+.sub-item-link:focus {
+    outline: 2px solid green;
+}
